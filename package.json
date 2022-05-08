@@ -1,0 +1,28 @@
+{
+  "name": "hackernews-typescript",
+  "author": "Nandan Shanubhag",
+  "version": "1.0.0",
+  "description": "A graphQL server written in typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deps:dedupe": "yarn dedupe --check"
+  },
+  "keywords": [],
+  "license": "UNLICENSED",
+  "dependencies": {
+    "apollo-server": "3.6.7",
+    "class-validator": "0.13.2",
+    "graphql": "15.8.0",
+    "reflect-metadata": "0.1.13",
+    "type-graphql": "1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.31",
+    "prettier": "2.6.2",
+    "ts-node": "10.7.0",
+    "ts-node-dev": "1.1.8",
+    "typescript": "4.6.3"
+  }
+}
